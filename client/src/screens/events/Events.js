@@ -61,8 +61,8 @@ class Events extends Component {
   onRefresh = () => {
     this.props.refetch();
   }
-
-  keyExtractor = item => item.id;
+  
+  keyExtractor = item => `${item.id}`;
 
   goToEvent = (event) => {
     const { navigate } = this.props.navigation;

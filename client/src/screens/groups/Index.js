@@ -89,7 +89,7 @@ class Groups extends Component {
     this.props.refetch();
   }
 
-  keyExtractor = item => item.id;
+  keyExtractor = item => `${item.id}`;
 
   goToGroup = (group) => {
     const { navigate } = this.props.navigation;
