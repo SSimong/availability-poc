@@ -188,6 +188,14 @@ export const USERS = [
     email: 'parramatta5@example.com',
     tags: [],
   },
+    {
+    id: 26,
+    username: '40031041',
+    password: 'test',
+    displayName: 'Simon Gethin',
+    email: 'simon.gethin@ses.nsw.gov.au',
+    tags: [],
+  },
 ];
 
 export const GROUPS = [
